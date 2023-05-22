@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "E475D13B-F685-4D07-B581-5B3BB59C9719",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PhotoAppTDD.xcodeproj",
+      "identifier" : "763033282A15C11D00963968",
+      "name" : "PhotoAppTDD"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PhotoAppTDD.xcodeproj",
+        "identifier" : "763033432A15C13A00963968",
+        "name" : "PhotoAppTDDTests"
+      }
+    }
+  ],
+  "version" : 1
+}
