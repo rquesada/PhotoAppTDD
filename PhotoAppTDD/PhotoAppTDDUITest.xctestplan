@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "D594A75D-11EE-4E81-AFF1-580351628D61",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PhotoAppTDD.xcodeproj",
+        "identifier" : "769D3E6E2A26AD850095BA15",
+        "name" : "PhotoAppTDDUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

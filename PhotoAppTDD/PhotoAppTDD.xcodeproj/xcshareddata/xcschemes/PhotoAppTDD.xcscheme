@@ -32,6 +32,9 @@
             reference = "container:PhotoAppTDD.xctestplan"
             default = "YES">
          </TestPlanReference>
+         <TestPlanReference
+            reference = "container:PhotoAppTDDUITest.xctestplan">
+         </TestPlanReference>
       </TestPlans>
       <Testables>
          <TestableReference
@@ -42,6 +45,17 @@
                BlueprintIdentifier = "763033432A15C13A00963968"
                BuildableName = "PhotoAppTDDTests.xctest"
                BlueprintName = "PhotoAppTDDTests"
+               ReferencedContainer = "container:PhotoAppTDD.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "769D3E6E2A26AD850095BA15"
+               BuildableName = "PhotoAppTDDUITests.xctest"
+               BlueprintName = "PhotoAppTDDUITests"
                ReferencedContainer = "container:PhotoAppTDD.xcodeproj">
             </BuildableReference>
          </TestableReference>
