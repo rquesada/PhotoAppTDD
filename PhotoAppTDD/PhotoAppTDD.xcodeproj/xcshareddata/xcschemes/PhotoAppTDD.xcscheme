@@ -29,11 +29,11 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:PhotoAppTDD.xctestplan"
+            reference = "container:PhotoAppTDDTests/PhotoAppTDD.xctestplan"
             default = "YES">
          </TestPlanReference>
          <TestPlanReference
-            reference = "container:PhotoAppTDDUITest.xctestplan">
+            reference = "container:PhotoAppTDDUITests/PhotoAppTDDUITest.xctestplan">
          </TestPlanReference>
       </TestPlans>
       <Testables>

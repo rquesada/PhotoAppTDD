@@ -21,6 +21,8 @@ final class SignupFlowUITests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         try super.setUpWithError()
         app = XCUIApplication()
+        app.launchArguments = ["-skipSurvey", "-debugServer"] //Pass arguments
+        app.launchEnvironment = ["signupUrl":"http://www.server.com", "inAppPurchasesEnable":"true", "inAppAdsEnable":"true"]
         app.launch()
         
         firstName = app.textFields["firstNameTextField"]
@@ -103,6 +105,24 @@ final class SignupFlowUITests: XCTestCase {
         
         // Act
         signupButton.tap()
+        
+        
+        //Take a screenshot of Textfield  (View)
+        let emailTextFieldScreenshot = email.screenshot()
+        let emailTextFieldAttachment = XCTAttachment(screenshot: emailTextFieldScreenshot)
+        emailTextFieldAttachment.name = "Roy Screenshot of Email UITextfield"
+        emailTextFieldAttachment.lifetime = .keepAlways
+        add(emailTextFieldAttachment)
+        
+        
+        //Take screenshot of all screen
+        //let currentAppWindow = app.screenshot() //First approach
+        let currentAppWindow = XCUIScreen.main.screenshot() // Second approach
+        let currentAppWindowAttachment = XCTAttachment(screenshot: currentAppWindow)
+        currentAppWindowAttachment.name = "Roy Screenshot of Signup page"
+        currentAppWindowAttachment.lifetime = .keepAlways
+        add(currentAppWindowAttachment)
+        
         
         // Assert
         XCTAssertTrue(app.alerts["successAlertDialog"].waitForExistence(timeout: 1), "An Success Alert dialog was not presented when valid signup form was submitted")

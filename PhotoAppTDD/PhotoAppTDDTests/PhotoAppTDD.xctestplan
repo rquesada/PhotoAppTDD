@@ -2,9 +2,26 @@
   "configurations" : [
     {
       "id" : "E475D13B-F685-4D07-B581-5B3BB59C9719",
-      "name" : "Test Scheme Action",
+      "name" : "Configuration 1",
       "options" : {
-
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupurl1",
+            "value" : "www.server2.com"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "76E61B9C-388A-4D50-A379-F3407A4C3DC0",
+      "name" : "Configuration 2",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupurl1",
+            "value" : "www.server1.com"
+          }
+        ]
       }
     }
   ],

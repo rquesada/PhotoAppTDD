@@ -4,7 +4,24 @@
       "id" : "D594A75D-11EE-4E81-AFF1-580351628D61",
       "name" : "Configuration 1",
       "options" : {
-
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl2",
+            "value" : "www.server1.com"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "D5C9B445-DBFD-45E2-BA9A-75756791670A",
+      "name" : "Configuration 2",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupUrl2",
+            "value" : "www.server4.com"
+          }
+        ]
       }
     }
   ],

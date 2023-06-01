@@ -129,8 +129,6 @@
 		763033202A15C11D00963968 = {
 			isa = PBXGroup;
 			children = (
-				769D3E7C2A26B4E30095BA15 /* PhotoAppTDDUITest.xctestplan */,
-				763033622A16926900963968 /* PhotoAppTDD.xctestplan */,
 				7630332B2A15C11D00963968 /* PhotoAppTDD */,
 				763033452A15C13A00963968 /* PhotoAppTDDTests */,
 				769D3E702A26AD850095BA15 /* PhotoAppTDDUITests */,
@@ -165,6 +163,7 @@
 		763033452A15C13A00963968 /* PhotoAppTDDTests */ = {
 			isa = PBXGroup;
 			children = (
+				763033622A16926900963968 /* PhotoAppTDD.xctestplan */,
 				7630335B2A15C90B00963968 /* Signup */,
 				763033462A15C13A00963968 /* PhotoAppTDDTests.swift */,
 			);
@@ -242,6 +241,7 @@
 		769D3E702A26AD850095BA15 /* PhotoAppTDDUITests */ = {
 			isa = PBXGroup;
 			children = (
+				769D3E7C2A26B4E30095BA15 /* PhotoAppTDDUITest.xctestplan */,
 				769D3E712A26AD850095BA15 /* SignupFlowUITests.swift */,
 				769D3E732A26AD850095BA15 /* PhotoAppTDDUITestsLaunchTests.swift */,
 			);
